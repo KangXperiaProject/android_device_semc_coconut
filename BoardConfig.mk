@@ -14,4 +14,7 @@ SENSORS_PRESSURE_BMP180 := false
 
 BOARD_USES_STEREO_HW_SPEAKER := true
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/coconut/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
